@@ -9,7 +9,7 @@
 
 <html>
 <head>
-    <title>list page</title>
+    <title>管理系统主页</title>
 </head>
 <body>
 <h4>绿化员工管理系统</h4>

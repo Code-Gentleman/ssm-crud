@@ -12,7 +12,7 @@
 %>
 <html>
 <head>
-    <title>员工列表</title>
+    <title>绿化公司员工列表</title>
     <script src="${APP_PATH}/static/js/jquery-1.11.3.min.js"></script>
     <link rel="stylesheet" href="${APP_PATH}/static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script src="${APP_PATH}/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -30,7 +30,7 @@
             <div class="modal-body">
                 <form class="form-horizontal">
                     <div class="form-group">
-                        <label for="empName_add_input" class="col-sm-2 control-label">empName</label>
+                        <label for="empName_add_input" class="col-sm-2 control-label">员工姓名</label>
                         <div class="col-sm-10">
                             <input type="email" name="empName" class="form-control" id="empName_add_input"
                                    placeholder="empName">
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="email_add_input" class="col-sm-2 control-label">email</label>
+                        <label for="email_add_input" class="col-sm-2 control-label">员工邮箱</label>
                         <div class="col-sm-10">
                             <input type="text" name="email" class="form-control" id="email_add_input"
                                    placeholder="Email">
@@ -78,14 +78,14 @@
             <div class="modal-body">
                 <form class="form-horizontal">
                     <div class="form-group">
-                        <label for="empName_add_input" class="col-sm-2 control-label">empName</label>
+                        <label for="empName_add_input" class="col-sm-2 control-label">员工姓名</label>
                         <div class="col-sm-10">
                             <p class="form-control-static" id="empName_update_static">test</p>
                             <span class="help-block"></span>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="email_add_input" class="col-sm-2 control-label">email</label>
+                        <label for="email_add_input" class="col-sm-2 control-label">员工邮箱</label>
                         <div class="col-sm-10">
                             <input type="text" name="email" class="form-control" id="email_update_input"
                                    placeholder="Email">
@@ -135,9 +135,9 @@
                         <input type="checkbox" id="check_all" />
                     </th>
                     <th>#</th>
-                    <th>empName</th>
-                    <th>gender</th>
-                    <th>email</th>
+                    <th>员工姓名</th>
+                    <th>性别</th>
+                    <th>邮箱</th>
                     <%--                    <th>departmentName</th>--%>
                     <th>操作</th>
                 </tr>
