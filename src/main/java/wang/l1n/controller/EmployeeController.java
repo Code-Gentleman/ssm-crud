@@ -35,7 +35,7 @@ public class EmployeeController {
         return Msg.success().add("pageInfo",page);
     }
 
-//    @RequestMapping("/emps")
+    //    @RequestMapping("/emps")
     public String getEmps(@RequestParam(value = "pn",defaultValue = "1") Integer pn,
                           Model model) {
         PageHelper.startPage(pn,5);

@@ -3,7 +3,6 @@ package wang.l1n.realms;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.realm.AuthenticatingRealm;
-import org.apache.shiro.realm.Realm;
 import org.apache.shiro.util.ByteSource;
 
 /**
